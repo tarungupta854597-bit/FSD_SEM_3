@@ -1,0 +1,48 @@
+   body {
+    background-color:#FFC8DD;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+    
+
+.loginbox{
+    background-color:#A2D2FF;
+    color:black;
+    border: solid;
+    height:550px;
+    width:500px;
+    display: flex;
+     flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    border-radius: 20px ;
+}
+.loginbutton{
+    background-color: aqua;
+    color:brown;
+   
+    
+}
+#loginform
+{
+   text-align: left ; 
+   margin-left: 20px;
+}
+#loginheading{
+    text-align: center;
+}
+.valuebox
+{
+    height: 25px;
+    width:400px;
+    border-radius: 10px ;
+}
+#submit
+{
+    background-color: #FFC8DD;
+}
