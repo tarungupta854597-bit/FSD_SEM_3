@@ -42,3 +42,7 @@ for(let i=0;i<5;i++)
     }
      console.log(ans);
 }
+console.log(null===undefined);
+const id3=Symbol.for('id');
+const id4=Symbol.for('id');
+console.log(id3===id4);
