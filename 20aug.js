@@ -41,13 +41,38 @@
 //     }
 // }
 // console.log(Person.laptop.cpu);
-const a={
-    a:1,
-    b:2
+// const a={
+//     a:1,
+//     b:2
+// };
+// const b={
+//     b:3,
+//     c:4,
+// };
+// // let m=Object.assign({},a,b);
+// let r1={...a,...b};
+// console.log(r1);
+const p1={
+    name:'amit',
+    laptop: {
+        cpu:'i7',
+        ram:'8gb',
+
+    }
 };
-const b={
-    b:3,
-    c:4,
-};
-let m=Object.assign({},a,b);
-console.log(m);
+const p2=structuredClone(p1);
+
+// const p2={...p1};
+ p2.laptop.cpu='i9';
+ const p3=JSON.parse(JSON.stringify(p1))
+ p3.laptop.ram='16gb';
+
+console.log(p1.laptop.cpu);
+console.log(p2.laptop.cpu);
+console.log(p1.laptop.ram);
+console.log(p3.laptop.ram);
+let name='js';
+console.log(`${name} programing`);
+console.log("hello,\"what\'s up there\"");
+
+
