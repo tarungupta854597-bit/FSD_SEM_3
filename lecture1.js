@@ -46,3 +46,5 @@ console.log(null===undefined);
 const id3=Symbol.for('id');
 const id4=Symbol.for('id');
 console.log(id3===id4);
+let q=10n;
+console.log(typeof(q));
