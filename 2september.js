@@ -7,18 +7,27 @@
 // const two=function(n)
 // {
 //   return (n+2);
-//}
-(function one(){
-  console.log("hola");
-})();
-(function (){
-  console.log("database connected");
-})();
-const person={
-  name:'tarun',
-  age:40,
-  greet:function(){
-    console.log(`${this.name} , ${this.age}`);
-    }
+// //}
+// (function one(){
+//   console.log("hola");
+// })();
+// (function (){
+//   console.log("database connected");
+// })();
+// const person={
+//   name:'tarun',
+//   age:40,
+//   greet:function(){
+//     console.log(`${this.name} , ${this.age}`);
+//     }
+
+// }
+
+function greet(city,country){
+  console.log(`i am ${this.name} from ${city} , ${country}` )
 }
-person.greet();
+const person={
+  name:"tarun",
+};
+const fn=greet.bind(person,"Gorakhpur","India");
+fn();
