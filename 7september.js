@@ -43,3 +43,9 @@ person.getname=function(){
 let p1=new person("tarun");
 console.log(p1.getname);
 console.log(person.prototype.getname);
+const person1={
+  name:"tarun"
+};
+function display(massage){
+  console.log
+}

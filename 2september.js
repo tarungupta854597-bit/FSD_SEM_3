@@ -22,12 +22,3 @@
 //     }
 
 // }
-
-function greet(city,country){
-  console.log(`i am ${this.name} from ${city} , ${country}` )
-}
-const person={
-  name:"tarun",
-};
-const fn=greet.bind(person,"Gorakhpur","India");
-fn();
